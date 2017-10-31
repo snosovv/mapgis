@@ -9,8 +9,8 @@ MainWindow::MainWindow(QWidget *parent) :
     GIS_map = 0;
 
     GIS_map = new MapGIS();
-    //    GIS_map->open("f:/QtPrj/mapgis/gismap/Moscow/osm3d/RU-MOW-3d.sit");
-    GIS_map->open("f:/QtPrj/mapgis/gismap/Moscow/ru-mow/RU-MOW.sit");
+    //    GIS_map->open("c:/QtPrj/mapgis/gismap/Moscow/osm3d/RU-MOW-3d.sit");
+    GIS_map->open("c:/QtPrj/mapgis/gismap/Moscow/ru-mow/RU-MOW.sit");
 
     this->setCentralWidget(GIS_map);
 

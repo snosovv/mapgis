@@ -39,4 +39,4 @@ FORMS    += mainwindow.ui
 
 DEFINES -= UNICODE
 
-LIBS += "f:/QtPrj/mapgis/Gisacces.lib"
+LIBS += "c:/QtPrj/mapgis/Gisacces.lib"
